@@ -1,9 +1,16 @@
 # Kaglytics
+## Описание
+Веб-платформа с аналитикой по соревнованиям на [Kaggle](https://www.kaggle.com/), предоставляющую пользователям возможность поиска по активным соревнованиям с предсказанным уровнем ожидаемой конкуренции. Проект был выполнен зимой-весной 2023 года.
 
-## Запуск проекта для разработки
+## Языки программирования:
+* Python
 
-- `python -m venv venv` - создание виртуального окружения
-- `venv/Scripts/activate`  - войти в виртуальное окружение
-- `pip install -r requirements.txt` - установка зависимостей
-- `python manage.py migrate` - применить миграции
-- `python manage.py runserver` - запустить сервер для разработки на http://127.0.0.1:8000
+## Технологии:
+* Django
+* PostgreSQL
+* Kaggle API
+* Numpy
+* Pandas
+* Catboost
+* Scikit-learn
+* Scheduler
